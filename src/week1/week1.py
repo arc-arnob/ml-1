@@ -276,8 +276,8 @@ for i in range(len(hs)): # For each h...
     Ltrn[i] = np.sum(np.log(+(trn*w))) # calculate trn log-likelihood
     Ltst[i] = np.sum(np.log(+(tst*w))) # calculate tst log-likelihood
 
-plt.plot(hs,Ltrn,’b-’) # Plot trn log-likelihood as function of h
-plt.plot(hs,Ltst,’r-’) # Plot tst log-likelihood as function of h
+plt.plot(hs,Ltrn,'b-') # Plot trn log-likelihood as function of h
+plt.plot(hs,Ltst,'r-') # Plot tst log-likelihood as function of h
 
 
 
